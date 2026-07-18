@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo / Mobile
+.expo/
+**/.expo/
+web-build/
+**/web-build/
+
+# Production builds
+dist/
+**/dist/
+build/
+**/build/
+
+# Env & Logs
+.env
+**/.env
+*.log
+**/*.log
+.system_generated/
+**/.system_generated/
+sent_emails_log.json
+**/sent_emails_log.json
+mockDb_persistent.json
+**/mockDb_persistent.json
+
+# OS files
+.DS_Store
+Thumbs.db
